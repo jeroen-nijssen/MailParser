@@ -1,0 +1,2 @@
+alive_progress==2.4.1
+extract_msg==0.36.1
