@@ -34,11 +34,11 @@ def search_msg(fullpath,search_in_body,search_item):
         print(f"Unable to extract {fullpath}")
         raise
 
-    if search_in_body and search_item in msg.body:
+    if search_in_body and search_item.lower() in msg.body.lower():
         success = 1
         return_message = "Found search item in body"
     
-    if search_item in msg.subject:
+    if search_item.lower() in msg.subject.lower():
         success = 1
         return_message = "Found search item in subject"
 
