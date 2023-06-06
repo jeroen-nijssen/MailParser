@@ -56,7 +56,7 @@ def search_msg(fullpath,search_in_body,search_item):
         print(f"Sender:\t\t{msg_sender}")
         print(f"Sent On:\t\t{msg_date}")
         print(f"Subject:\t\t{msg_subj}")
-        print(f"Body:\n{msg_message}\n")
+        # print(f"Body:\n{msg_message}\n")
 
         input("Press Enter to continue...")
 
